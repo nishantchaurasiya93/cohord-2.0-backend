@@ -1,0 +1,22 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    padding: 2rem;
+    justify-content: space-evenly;
+}
+
+.note {
+
+    background-color: rgba(130, 15, 126, 0.134);
+    padding: 1rem 2rem;
+    border-radius: 0.4rem;
+    display: flex;
+    flex-direction: column;
+    font-weight: 600;
+}
+
+.note p span {
+   
+    color: rgb(130, 15, 126);
+}
