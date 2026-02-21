@@ -1,0 +1,27 @@
+form {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 2rem;
+
+}
+.input,
+.submit-btn {
+    padding: 0.4rem 1.5rem;
+    border-radius: 100px;
+    border: 1px solid gray;
+    outline: none;
+    font-size: 1.2rem;
+}
+.submit-btn{
+    cursor: pointer;
+    border: none;
+    color: white;
+  
+     background-color: rgba(30, 98, 5, 0.507);
+   transition: all 0.1s linear;
+}
+
+.submit-btn:hover{
+     background-color: rgba(105, 217, 65, 0.507);
+}

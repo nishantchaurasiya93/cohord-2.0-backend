@@ -1,0 +1,41 @@
+.note-container{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+padding: 2rem;
+justify-content: space-between;
+gap: 1rem;
+}
+.note{
+    width: 45%;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+    background-color: rgba(0, 0, 0, 0.121);
+      box-shadow: 
+        0 2px 5px rgba(0, 0, 0, 0.12), 
+        0 4px 10px rgba(0, 0, 0, 0.08);
+    
+}
+.text{
+    width: 100%;
+   
+}
+.delete-btn{
+    padding: 0.8rem 2rem;
+    background-color: rgba(255, 0, 0, 0.24);
+    border: none;
+    border-radius: 100px;
+    font-weight: 700;
+    color: white;
+    transition: all 0.2s linear;
+    cursor: pointer;
+  box-shadow: 
+        0 2px 5px rgba(0, 0, 0, 0.12), 
+        0 4px 10px rgba(0, 0, 0, 0.08);
+}
+.delete-btn:hover{
+    background-color: rgba(255, 0, 0, 0.489);
+}
